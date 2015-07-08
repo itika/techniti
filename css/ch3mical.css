@@ -1,0 +1,84 @@
+#centerwell {
+   height: 50px;
+   background: #3d464e;
+   overflow: hidden;
+}
+
+#centerwell li  {
+   position: relative;
+   width: 72px; height: 50px;
+   float: left;
+   border-right: #3d464e 1px solid;
+   background: white;
+   overflow: hidden;
+   cursor: pointer;
+}
+
+#centerwell h3 {
+   position: absolute;
+   top: 0; left: 0;
+   text-indent: -9999px;
+   width: 72px;
+    height: 50px;
+}
+
+#container{
+	height:50px; display:block;
+	
+}
+
+#centerwell p {
+   width: 215px;
+   margin-left: 85px;
+   color: #5f5f5f;
+   margin-top:-29px;
+   font-size: 15px;
+   height: 50px;
+   font-family: GeogrotesqueMedium, Helvetica, Arial, sans-serif;
+   letter-spacing: 0pt;
+
+}
+
+/* ADDING IMAGES PER SECTIONS FOR GLOBAL NAV*/
+
+#linkedin h3 {
+   background: url(../images/menu/linkdin.png) no-repeat;
+}
+#linkedin p {
+   background:url(../images/menu/linkedin_over_bg.gif) no-repeat;
+}
+
+#facebook h3 {
+   background:url(../images/menu/1.png) no-repeat;
+}
+#facebook p {
+   background: url(../images/menu/facebook_over_bg.gif) no-repeat;
+}
+
+
+#twitter h3 {
+   background:url(../images/menu/twitter.png) no-repeat;
+}
+#twitter p {
+   background: url(../images/menu/twitter_over_bg.gif) no-repeat;
+}
+
+#email h3 {
+   background: url(../images/menu/email.png) no-repeat;
+}
+#email p {
+   background: url(../images/menu/email_over_bg.jpg) no-repeat;
+}
+
+#contact h3 {
+   background:url(../images/menu/contact.png) no-repeat;
+}
+#contact p {
+   background: url(../images/menu/contact_over_bg.jpg) no-repeat;
+}
+
+/* END */
+
+#linkedin {
+   margin-left: 735px; 
+}
